@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import './App.css';
 const App = () => {
   const [logS, setLog] = useState("")
-  let recordingTimeMS = 10000;
+  const recordingTimeMS = 100000;
   const preview = useRef()
   const downloadButton = useRef()
   const recording = useRef()
